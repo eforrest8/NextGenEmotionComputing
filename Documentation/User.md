@@ -54,8 +54,7 @@ The primary use for this application is to display the data being collected from
 #### Mouth camera recording
 
 - Video from the integrated mouth camera is recorded automatically when a session is started and stopped when the session is ended. No preview of the collected video is displayed.
-- Recordings are saved alongside their associated session data on the local device. Note that recordings are saved locally _even if the *Save Session Data to Disk* button is not pressed!_
-- As of the time of writing, video data is not uploaded to any form of cloud storage, even if the **Upload Session Data** button is pressed.
+- Recordings are saved alongside their associated session data on the local device. Note that if the *Save Session Data to Disk* button is not pressed, the new video file may be corrupted.
 
 
 # Web application
@@ -110,6 +109,7 @@ To get to registration click the link under the "LOGIN" button and create an acc
 ### Export PDF
 
 - You can export the data to a PDF by clicking "Export PDF".
+  - Video data is _not_ included in the PDF.
 
 ![PDF Export](./images/WebExportPDF.png)
 
@@ -118,6 +118,7 @@ To get to registration click the link under the "LOGIN" button and create an acc
 ### Export Raw Data
 
 - You can export the data to a JSON by clicking "Export Raw Data".
+  - Video data is _not_ included in the raw data download. For now, video may be downloaded by right-clicking the video and selecting "Save As" or by clicking the download button in the video player itself (if provided by your browser.)
 
 ![PDF Export](./images/WebExportData.png)
 
