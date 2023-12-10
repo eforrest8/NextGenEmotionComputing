@@ -29,12 +29,12 @@ Peak Mind
 - [Features  tracking (Project Management Tool)](https://github.com/users/eforrest8/projects/2)
 
 ## **Code Repositories**
-### Downstream
+### Upstream
 - [Unity Dashboard](https://github.com/aemckoy/peak-vis-unity)
 - [Web Dashboard](https://github.com/aemckoy/peak-vis-webapp)
 - [CDK](https://github.com/aemckoy/peak-vis-cdk)
 
-### Upstream
+### Downstream
 - [Unity Dashboard](https://github.com/eforrest8/peak-vis-unity)
 - [Web Dashboard](https://github.com/eforrest8/peak-vis-webapp)
 - [CDK](https://github.com/eforrest8/peak-vis-cdk)
