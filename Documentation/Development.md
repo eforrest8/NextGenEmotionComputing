@@ -150,7 +150,7 @@ The `S3_BUCKET_NAME`, `AWS_ACCESS_KEY_ID`, and `AWS_SECRET_ACCESS_KEY` should al
 
 ### Note
 
-When you first start after you run the docker compose project you will need to create an admin user if you want to test admin functionality on the frontend and create new users. To do so you will need to run a custom Flask command `flask creat-admin --email {your testing email} --password {development password}`
+When you first start after you run the docker compose project you will need to create an admin user if you want to test admin functionality on the frontend and create new users. To do so, you will need to connect to the peak-vis-api container from CLI through the docker dashboard. You will need to run flask command db upgrade to create the database tables. Then, you will need to run a custom Flask command `flask creat-admin --email {your testing email} --password {development password}`
 
 ## Linting
 ---
