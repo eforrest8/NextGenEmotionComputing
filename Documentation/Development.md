@@ -152,7 +152,7 @@ The `S3_BUCKET_NAME`, `AWS_ACCESS_KEY_ID`, and `AWS_SECRET_ACCESS_KEY` should al
 
 When you first start after you run the docker compose project you will need to create an admin user if you want to test admin functionality on the frontend and create new users. To do so, you will need to connect to the peak-vis-api container from CLI through the docker dashboard. You will need to run flask command db upgrade to create the database tables. Then, you will need to run a custom Flask command `flask creat-admin --email {your testing email} --password {development password}`
 
-After creating a sample organization and user, select view session dashboard under the user. To add sample sessions, connect to the peak-vis-webapp-mysqldb database container from CLI. Run "mysql -h localhost -u peak-vis -pdev peak-visualization" to connect the mysql server to the container. Sample data can then be added by running commands such as "insert into datasets(name, user_id) values ("2023-02-03T17:10:29.224Z.json",2);".
+After creating a sample organization and user, select view session dashboard under the user. To add sample sessions, connect to the peak-vis-webapp-mysqldb database container from CLI. Run 'mysql -h localhost -u peak-vis -pdev peak-visualization' to connect the mysql server to the container. Sample data can then be added by running commands such as 'insert into datasets(name, user_id) values ("2023-02-03T17:10:29.224Z.json",2);'.
 
 ## Linting
 ---
