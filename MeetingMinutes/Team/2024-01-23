@@ -1,0 +1,20 @@
+# Week of 01/23/2024
+## Meeting Start Time
+2024/01/23/19:00
+## Meeting End Time
+2024/01/23/21:30
+## Location/Medium
+Discord
+## Present
+Beethoven, Peter, Tommy, Ethan
+## Minute Recorder
+Tommy Nguyen
+7:15 - Talked about branch protection 
+7:35 - Looked at some the previous written (fail) test
+8:00 - Mob program
+## Topics Discussed
+We discussed on what needed to be finish and who is working on what. We also reserved a time needed for the presenation and planned out the next two week. We discussed on making sure for this iteration there are more testing and the project will be worked on in teams of two to speed up the process 
+## Things Clarified
+We clarified on some things such as branch protection and reviewers for push/pull request.
+## Tasks Distributed
+ Ethan and Peter will work on the the data for the backend while Ben and I will look at some of the test that was written before by the previous team. I worked on the test for the web app authentication
