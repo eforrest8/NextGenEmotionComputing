@@ -11,3 +11,4 @@
 * NR3. (Corresponds to BR2) (Priority: LOW) Recorded data will be stored via an AWS instance.
 * NR4. (Corresponds to BR1, BR2) (Priority: HIGH) Dr. Mckoy must have full access to and control over everything in the AWS account.
 * NR5. (Corresponds to BR1. BR2) (Priority: LOW) All collection, storage, and access of user data must comply with applicable regulations.
+* NR6. (Corresponds to BR1) (Priority: LOW) All displayed logos and color palettes are up-to-date.
