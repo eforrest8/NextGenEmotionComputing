@@ -156,11 +156,11 @@ After creating a sample organization and user, select view session dashboard und
 
 ## Linting
 ---
-
+*Modified and Verified on 2-14-2024
 ### Frontend
 - The frontend is setup with ESLint/Prettier
-- To run the code formatter i.e. Prettier type the command `npm format` in the root directory and this will run `prettier --write` on the entire project.
-- There are two main commands for ESLint `npm lint` which will just run the basic ESLint command and `npm lint:fix` which will run some automatted fixes.
+- To run the code formatter i.e. Prettier type the command `npm run format` in the root directory and this will run `prettier --write` on the entire project.
+- There are two main commands for ESLint `npm run lint` which will just run the basic ESLint command and `npm run lint:fix` which will run some automatted fixes.
 
 ### Backend
 - The Backend uses Flake8 for linting
