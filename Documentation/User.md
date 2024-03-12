@@ -129,10 +129,14 @@ To get to registration click the link under the "LOGIN" button and create an acc
 
 ### Export Video
 
+- You can export the session video by clicking "Export Video".
+
+![Export Video](./images/ExportVideo.png)
+
 ### Export Raw Data
 
 - You can export the data to a JSON by clicking "Export Raw Data".
-  - Video data is _not_ included in the raw data download. For now, video may be downloaded by right-clicking the video and selecting "Save As" or by clicking the download button in the video player itself (if provided by your browser.)
+  - Video data is _not_ included in the raw data download. You must select "Export Video" for this option. 
 
 ![PDF Export](./images/WebExportData.png)
 
