@@ -53,12 +53,13 @@ The primary use for this application is to display the data being collected from
 
 #### Mouth camera recording
 
-- Video from the integrated mouth camera is recorded automatically when a session is started and stopped when the session is ended. No preview of the collected video is displayed.
+- Video from the integrated mouth camera is recorded automatically when a session is started and stopped when the session is ended.
 - Recordings are saved alongside their associated session data on the local device. Note that if the *Save Session Data to Disk* button is not pressed, the new video file may be corrupted.
 
 #### Mouth camera preview
 
 - Video from the mouth camera is now previewed on the Unity session recording screen. This video is merely a preview of what the camera will record.
+
 ![Mouth Camera Preview](./images/MouthCameraPreview.png)
 
 # Web application
