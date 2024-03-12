@@ -111,6 +111,13 @@ To get to registration click the link under the "LOGIN" button and create an acc
 ![View Session Notes Button](./images/WebShowSessionNotesButton.png)
 ![Session Notes UI](./images/NoteViewer.png)
 
+### View Session Video
+
+- You can view the dataset video by selecting the Session Video tab and selecting the play button in the video player. You can stop, start, and rewind the video.
+
+![Session Video Player](./images/DatasetVideo.png)
+
+
 ### Export PDF
 
 - You can export the data to a PDF by clicking "Export PDF".
@@ -119,6 +126,8 @@ To get to registration click the link under the "LOGIN" button and create an acc
 ![PDF Export](./images/WebExportPDF.png)
 
 ![PDF Export Results](./images/WebExportPDFResult.png)
+
+### Export Video
 
 ### Export Raw Data
 
