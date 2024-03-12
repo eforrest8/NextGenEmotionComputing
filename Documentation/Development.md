@@ -104,7 +104,9 @@ The web app follows React folder structure standards. There is a public folder, 
 
 - To run unit tests use `npm run test` in the root directory of the project.
 
-- `npm run test:coverage` should be used to generate test coverage percentages for total statements, branches, functions, and lines in the frontend. 
+- `npm run test:coverage` should be used to generate test coverage percentages for total statements, branches, functions, and lines in the frontend.
+
+![Frontend Npm Test Coverage Report](./images/FrontEndTestCoverageReport.png)
 
 - You can view the frontend in your browser by connecting to http://localhost:3000.
 
