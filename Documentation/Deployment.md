@@ -1,4 +1,4 @@
-Note: As of 2024-03-11, this document has not been modified from its previous form. All deployment procedures remain the same.
+*Updated as of 03-11-2024. 
 
 # Unity Application
 
@@ -34,6 +34,8 @@ Note: As of 2024-03-11, this document has not been modified from its previous fo
 - The backend is ready to run in a web server by running the shell script in the `bin/` folder: `bin/run.sh`.
 
 - In the environment you will have to set the environment variable `ENV` variable to `production`. Currently there is no production configuration so you will have to create an appropriate one in the `backend/api/config.py` file because it currently only has a configuration for development and testing.
+
+- Currently, you can copy backend/.env.testing and paste it to the backend folder. Rename this file to .env and you should satisfy the ENV variable requirement.
 
 - The api is setup to run on the popular Python webserver flavor `Gunicorn`. so if that is not your preference for production you'll have to create a diffent setup for the api.
 
