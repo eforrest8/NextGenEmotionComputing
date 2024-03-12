@@ -133,7 +133,7 @@ To get to registration click the link under the "LOGIN" button and create an acc
 
 ![Export Video](./images/ExportVideo.png)
 
-![Exported Video Played](!/images/ExportedVideo.png)
+![Exported Video Played](./images/ExportedVideo.png)
 
 ### Export Raw Data
 
