@@ -62,11 +62,13 @@ The project follows Unity’s default folder structure: Assets, Packages, and Pr
 
 - Running unit tests in Unity is done through the Unity Test Runner plugin. IMPORTANT - the HP provided prefab for the Omnicept SDK has caused frequent Unity crashes when running unit tests in `play mode` after the tests have ran, so it is recommended that you disable the HPGlia prefab in the scene before you run the unit tests.
 
-- For most direct testing involving running the HP omnicept simulator to complete the full data upload loop to the webapp, you should select the 'Login' scene and login using user information that you created in the webapp under an organization.
-
 ![Unity Test Runner](./images/UnityTestRunner.png)
 
 ![Disabling HPGlia Prefab](./images/DisableHPGlia.png)
+
+- For most direct testing involving running the HP omnicept simulator to complete the full data upload loop to the webapp, you should select the `Login` scene and login using user information that you created in the webapp under an organization.
+
+![Login Scene Selection](./images/LoginSceneUnity.png)
 
 ## Repicating via Docker
 ---
