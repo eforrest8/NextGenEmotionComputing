@@ -1,3 +1,4 @@
+*Updated as of 03-11-2024.
 # Development
 
 
@@ -61,6 +62,8 @@ The project follows Unity’s default folder structure: Assets, Packages, and Pr
 
 - Running unit tests in Unity is done through the Unity Test Runner plugin. IMPORTANT - the HP provided prefab for the Omnicept SDK has caused frequent Unity crashes when running unit tests in `play mode` after the tests have ran, so it is recommended that you disable the HPGlia prefab in the scene before you run the unit tests.
 
+- For most direct testing involving running the HP omnicept simulator to complete the full data upload loop to the webapp, you should select the 'Login' scene and login using user information that you created in the webapp under an organization.
+
 ![Unity Test Runner](./images/UnityTestRunner.png)
 
 ![Disabling HPGlia Prefab](./images/DisableHPGlia.png)
@@ -79,6 +82,7 @@ The project follows Unity’s default folder structure: Assets, Packages, and Pr
 - To open this project locally, pull from this [repo](https://github.com/pfled/peak-vis-webapp).
 
 - If you don't have make you can run the command listed in the `Makefile` which is `coverage run -m pytest && coverage report -m`.
+ 
 - If you want to run the unit tests without code coverage you can just run `pytest`.
 
 ### Running the project
@@ -98,7 +102,9 @@ The web app follows React folder structure standards. There is a public folder, 
 
 - To run unit tests use `npm run test` in the root directory of the project.
 
-- You can view the fronte in your browser by connecting to http://localhost:3000.
+- `npm run test:coverage` should be used to generate test coverage percentages for total statements, branches, functions, and lines in the frontend. 
+
+- You can view the frontend in your browser by connecting to http://localhost:3000.
 
 ### Backend
 
@@ -150,7 +156,7 @@ The `S3_BUCKET_NAME`, `AWS_ACCESS_KEY_ID`, and `AWS_SECRET_ACCESS_KEY` should al
 
 ### Note
 
-When you first start after you run the docker compose project you will need to create an admin user if you want to test admin functionality on the frontend and create new users. To do so, you will need to connect to the peak-vis-api container from CLI through the docker dashboard. You will need to run flask command db upgrade to create the database tables. Then, you will need to run a custom Flask command `flask creat-admin --email {your testing email} --password {development password}`
+When you first start after you run the docker compose project you will need to create an admin user if you want to test admin functionality on the frontend and create new users. To do so, you will need to connect to the peak-vis-api container from CLI through the docker dashboard. You will need to run flask command db upgrade to create the database tables. Then, you will need to run a custom Flask command `flask create-admin --email {your testing email} --password {development password}`
 
 After creating a sample organization and user, select view session dashboard under the user. To add sample sessions, connect to the peak-vis-webapp-mysqldb database container from CLI. Run `mysql -h localhost -u peak-vis -pdev peak-visualization` to connect the mysql server to the container. Sample data can then be added by running commands such as `insert into datasets(name, user_id) values ("2023-02-03T17:10:29.224Z.json",2);`.
 
