@@ -84,6 +84,8 @@ The project follows Unity’s default folder structure: Assets, Packages, and Pr
 - To open this project locally, pull from this [repo](https://github.com/pfled/peak-vis-webapp).
 
 - If you don't have make you can run the command listed in the `Makefile` which is `coverage run -m pytest && coverage report -m`.
+
+![Backend Test Coverage Report](./images/FrontEndTestCoverageReport.png)
  
 - If you want to run the unit tests without code coverage you can just run `pytest`.
 
