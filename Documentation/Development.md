@@ -85,7 +85,7 @@ The project follows Unity’s default folder structure: Assets, Packages, and Pr
 
 - If you don't have make you can run the command listed in the `Makefile` which is `coverage run -m pytest && coverage report -m`.
 
-![Backend Test Coverage Report](./images/FrontEndTestCoverageReport.png)
+![Backend Test Coverage Report](./images/BackEndTestCoverageReport.png)
  
 - If you want to run the unit tests without code coverage you can just run `pytest`.
 
