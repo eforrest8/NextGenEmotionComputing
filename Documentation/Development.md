@@ -101,6 +101,9 @@ In the "Build Settings" window, you may change some settings before starting the
 Most relevant is the "Development Build" toggle; this setting enables some extra debugging functionality in the built executable.
 In particular, the simulated camera is enabled in builds made with "Development Mode" enabled.
 
+The config file is *NOT* automatically generated when building. It will be created at runtime if one does not exist, but I strongly suggest that you include a file pre-filled with the default settings for ease of use.
+For builds, the `config.cfg` should be located in the `PeakVisualization_Data` directory alongside `data.unity3d` and `boot.config`.
+
 ## Web Frontend and API Server
 
 ### Requirements
