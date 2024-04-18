@@ -24,7 +24,8 @@ Attending the symposium was a decent experience. It was intriguing to find a var
 
 
 ## Ethan
-The symposium at Ball State turned out to be quite worthwhile. It provided a good platform to discuss our project. It was interesting to see a mix of different projects, not just from computer science but also other creative fields like fashion. Engaging with a diverse audience proved to be highly valuable. It was a practical exercise in communication, especially during a busy senior year. The food was also especically good given the duration of the event. 
+Real talk, I had a great time.
+I wouldn't describe myself as _good_ at talking to people, but the fact that we needed to pull in five people gave me the chance to go goblin mode a little bit and I appreciate that. Funnily enough, I didn't pay any attention at all to any other project at the event. I'm sure there was neat stuff around, but I was just so occupied with our little corner that I never felt inclined to take a look. I do know that none of their posters were as eye-catching as ours, so how come we didn't win the award? Also I ate cheese and it was pretty good.
 
 
 ## Peter
