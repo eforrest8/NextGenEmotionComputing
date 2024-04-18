@@ -1,4 +1,3 @@
-*Updated as of 03/11/2024
 # Unity application
 
 ## Note for running the application the first time
@@ -28,7 +27,6 @@ The primary use for this application is to display the data being collected from
 - In the center of the window is the smallest panel that displays the heart rate of the user (beats per minute).
 - The heart in the center will also pulse and change color depending on the user's heart rate.
 - If the user's heart rate is less than 75 the heart will pulse slow with a light blue color. If between 76 and 135, the heart will pulse a bit faster with a yellow color. If between 136 and 175, the heart will beat faster and with a light red color. Finally, if the user's heart rate is above 176, the heart will pulse faster than before and with a dark red color.
-
 
 <img src="./images/Iteration3Hr.png" alt="Heart Rate Panel" width=250px>
 
@@ -63,9 +61,9 @@ The primary use for this application is to display the data being collected from
 
 ![Mouth Camera Preview](./images/MouthCameraPreview.png)
 
-# Web application
+## Web application
 
-## Login
+### Login
 
 Users can access their datasets by entering the email and password they created during registration.
 
@@ -75,11 +73,11 @@ To get to registration click the link under the "LOGIN" button and create an acc
 
 ![Registration Screen](./images/WebRegister.png)
 
-## Features
+### Features
 
 ---
 
-### Select Dataset
+#### Select Dataset
 
 - The Simulation Results will appear on your dashboard. You can select which simulation's dataset to view.
 
@@ -87,13 +85,13 @@ To get to registration click the link under the "LOGIN" button and create an acc
 
 ![Dropdown with Options](./images/WebDropdown2.png)
 
-### Chart Details
+#### Chart Details
 
 - You can see the value of specific points on the chart by hovering over them.
 
 ![Hover Details](./images/WebHover.png)
 
-### Filter Charts
+#### Filter Charts
 
 - You can filter which charts they want to view by clicking the pill toggles.
 
@@ -101,34 +99,34 @@ To get to registration click the link under the "LOGIN" button and create an acc
 
 ![Heart Rate Hidden](./images/WebFilter2.png)
 
-### Add Dataset Notes
+#### Add Dataset Notes
 
 - To add a note to a session dataset, click on any of the charts. A window will appear with the data and timestamp values automatically filled in, and more space to add a note.
 
 ![Note Taker UI](./images/FloatingNoteTaker.png)
 
-### View Dataset Notes
+#### View Dataset Notes
+
 - To view all saved notes for a given dataset, click "View Session Notes".
 ![View Session Notes Button](./images/WebShowSessionNotesButton.png)
 ![Session Notes UI](./images/NoteViewer.png)
 
-### View Session Video
+#### View Session Video
 
 - You can view the dataset video by selecting the Session Video tab and selecting the play button in the video player. You can stop, start, and rewind the video.
 
 ![Session Video Player](./images/DatasetVideo.png)
 
-
-### Export PDF
+#### Export PDF
 
 - You can export the data to a PDF by clicking "Export PDF".
-  - Video data is _not_ included in the PDF.
+  - Video data is *not* included in the PDF.
 
 ![PDF Export](./images/WebExportPDF.png)
 
 ![PDF Export Results](./images/WebExportPDFResult.png)
 
-### Export Video
+#### Export Video
 
 - You can export the session video by clicking "Export Video".
 
@@ -136,16 +134,16 @@ To get to registration click the link under the "LOGIN" button and create an acc
 
 ![Exported Video Played](./images/ExportedVideo.png)
 
-### Export Raw Data
+#### Export Raw Data
 
 - You can export the data to a JSON by clicking "Export Raw Data".
-  - Video data is _not_ included in the raw data download. You must select "Export Video" for this option. 
+  - Video data is *not* included in the raw data download. You must select "Export Video" for this option.
 
 ![PDF Export](./images/WebExportData.png)
 
 ![PDF Export Results](./images/WebExportDataResult.png)
 
-### Admin Page
+#### Admin Page
 
 - On the admin page, the user can perform executive functions such as creating and deleting organizations/users.
 
@@ -153,7 +151,7 @@ To get to registration click the link under the "LOGIN" button and create an acc
 ![Admin Portal User Manager](./images/UserManager.png)
 ![Admin Portal User Creator](./images/UserCreator.png)
 
-### Manager Page
+#### Manager Page
 
 - The manager page allows someone from the organization that is acting as a manager to access all the user's data that is in that organization. The manager can see a list of all users in the same organization, they can then click on the link and be taken to the individual's datasets to be reviewed.
 
