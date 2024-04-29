@@ -12,6 +12,6 @@ The back button shown in the session sidebar is overlaid on the session list and
 
 ### Emotion detection
 
-Emotion detection is only semi-functional at present. This is due to a variety of factors, but chief among them is the nature of the HP Omnicept camera. The camera only captures the mouth, which results in images which off-the-shelf facial recognition models do not handle well. It may be necessary to pull back from 
+Emotion detection is only semi-functional at present. This is due to a variety of factors, but chief among them is the nature of the HP Omnicept camera. The camera only captures the mouth, which results in images which off-the-shelf facial recognition models do not handle well. It may be necessary to pull back from detecting emotion to detecting mouth expression; smile/frown, etc.
 
 ## Things to Improve
